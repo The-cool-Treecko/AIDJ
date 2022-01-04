@@ -1,0 +1,44 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.heading {
+    width: 100%;
+    margin: 0;
+    font-size: 26px;
+}
+
+#note {
+    font-size: 16px;
+    color: black;
+}
+
+#disk {
+    width: 250px;
+    border: solid white 5px;
+    border-radius: 360px;
+}
+
+#volume,#speed {
+    font-size: 20px;
+}
+
+#volume_div {
+    float: left;
+    border: 5px outset gray;
+    background: linear-gradient(to bottom right, lightgrey, darkgrey, grey);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+#speed_div {
+    float: right;
+    border: 5px outset gray;
+    background: linear-gradient(to bottom right, lightgrey, darkgrey, grey);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
