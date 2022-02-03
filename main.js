@@ -39,23 +39,23 @@ function draw() {
     if (rightScore > 20) {
         circle(rightX, rightY, 20);
         if (rightY >= 0 && rightY <= 100) {
-            song.setRate(0.5);
+            song.rate(0.5);
             document.getElementById("speed").innerHTML = "Speed: 0.5";
         }
         else if (rightY > 100 && rightY <= 200) {
-            song.setRate(1);
+            song.rate(1);
             document.getElementById("speed").innerHTML = "Speed: 1";
         }
         else if (rightY > 200 && rightY <= 300) {
-            song.setRate(1.5);
+            song.rate(1.5);
             document.getElementById("speed").innerHTML = "Speed: 1.5";
         }
         else if (rightY > 300 && rightY <= 400) {
-            song.setRate(2);
+            song.rate(2);
             document.getElementById("speed").innerHTML = "Speed: 2";
         }
         else if (rightY > 400 && rightY <= 500) {
-            song.setRate(2.5);
+            song.rate(2.5);
             document.getElementById("speed").innerHTML = "Speed: 2.5";
         }
     }
